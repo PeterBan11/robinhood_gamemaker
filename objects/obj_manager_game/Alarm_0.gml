@@ -2,6 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 6CB517BE
 /// @DnDInput : 3
+/// @DnDArgument : "expr_1" "1"
 /// @DnDArgument : "expr_relative_1" "1"
 /// @DnDArgument : "expr_2" "5"
 /// @DnDArgument : "expr_relative_2" "1"
@@ -9,7 +10,7 @@
 /// @DnDArgument : "var_1" "global.wave_number"
 /// @DnDArgument : "var_2" "global.goblins_max_count"
 global.goblins_count = 0;
-global.wave_number += 0;
+global.wave_number += 1;
 global.goblins_max_count += 5;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
