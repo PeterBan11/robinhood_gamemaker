@@ -53,10 +53,11 @@ var l3C3A4F74_0 = my_state;switch(l3C3A4F74_0){	/// @DnDAction : YoYo Games.S
 		/// @DnDParent : 235074EF
 		/// @DnDArgument : "x" "x"
 		/// @DnDArgument : "y" "y"
+		/// @DnDArgument : "xscale" "x_direction"
 		/// @DnDArgument : "sprite" "spr_goblin_idle"
 		/// @DnDArgument : "frame" "image_index"
 		/// @DnDSaveInfo : "sprite" "spr_goblin_idle"
-		draw_sprite_ext(spr_goblin_idle, image_index, x, y, 1, 1, 0, $FFFFFF & $ffffff, 1);
+		draw_sprite_ext(spr_goblin_idle, image_index, x, y, x_direction, 1, 0, $FFFFFF & $ffffff, 1);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Code
 		/// @DnDVersion : 1
