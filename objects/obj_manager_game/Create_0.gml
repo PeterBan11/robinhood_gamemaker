@@ -35,9 +35,8 @@ global.goblins_count = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6C74BAD6
-/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "wave_number"
-global.wave_number = 1;
+global.wave_number = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
